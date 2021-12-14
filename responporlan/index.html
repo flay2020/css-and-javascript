@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesponsive Portfolio Page WDT</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <section class="banner" id="sec">
+        <header>
+            <a href="#" class="logo">Logo</a>
+            <div id="toggle" onclick="toggle()"></div>
+        </header>
+        <div class="content">
+            <h2>Hello World,<br>I'm <span>Mustafo Ahmadjonov</span></h2>
+            <p>Mustafa was born in Uzbekistan in 2015. Due to his father's work, he came to Moscow at the age of 3 and to Istanbul when he was 5 years old. He is a smart, respectful, loving and naive child. He tries to treat everyone around him equally and
+                does not want to upset him. He loves his mother very much, but does not neglect to misbehave. "Sorry. I love you very much. I won't do it again.” der. She loves helping her mother with the housework. He also loves his father very much,
+                fulfills everything he wants, and there is no wiser, good boy next to his father. He enjoys talking, playing with his toys and drawing pictures. Can use both right and left hand while drawing. He can use both hands while writing, but he
+                uses his left hand more. He can speak Turkish, Russian, Uzbek and a little bit of English. He is very curious, so he learned to read and write at a very early age.</p>
+            <a href="#">Know More</a>
+        </div>
+        <ul class="sci">
+            <li>
+                <a href="#"><img src="facebook.png" alt=""></a>
+            </li>
+            <li>
+                <a href="#"><img src="twitter.png" alt=""></a>
+            </li>
+            <li>
+                <a href="#"><img src="linkedin.png" alt=""></a>
+            </li>
+        </ul>
+    </section>
+    <div id="navigation">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+
+        </ul>
+    </div>
+    <script type="text/javascript">
+        function toggle() {
+            var sec = document.getElementById('sec')
+            var nav = document.getElementById('navigation')
+            sec.classList.toggle('active')
+            nav.classList.toggle('active')
+
+        }
+    </script>
+</body>
+
+</html>
