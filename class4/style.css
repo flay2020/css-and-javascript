@@ -111,14 +111,17 @@ header #toggle::after {
 }
 
 #navigation ul li a {
-    color: #fff;
+    color: #00000033;
     text-decoration: none;
     display: inline-block;
     font-size: 2em;
     font-weight: 600;
     text-transform: uppercase;
 }
-
+#navigation ul li a:hover
+{
+    color: #000330;
+}
 .content {
     max-width: 600px;
 }
@@ -145,10 +148,18 @@ header #toggle::after {
     margin-top: 20px;
     background: #fff;
     color: #000;
+    border-radius: 5px;
     padding: 10px 30px;
     text-decoration: none;
     font-size: 1.2em;
     font-weight: 500;
+}
+.content a:hover
+{
+    background:#00000033;
+    color: #fff;
+    border: 2px solid #fff;
+
 }
 
 .insaweb {
@@ -181,7 +192,7 @@ header #toggle::after {
 }
 
 .sci li a:hover {
-    background: #fff;
+    background: #000330;
 }
 
 .sci li a img {
@@ -205,10 +216,10 @@ header #toggle::after {
         font-size: 1em;
     }
     .banner.active {
-        transform: translateX(-250px);
+        transform: translateX(-200px);
     }
     #navigation {
-        width: 250px;
+        width: 200px;
     }
     #navigation ul li a {
         font-size: 1.5em;
